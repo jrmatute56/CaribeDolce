@@ -1,0 +1,714 @@
+/* Agregar tipografía adiciona*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@300;400&display=swap');
+
+/* INICIALIZANDO RELLENO Y MARGEN */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* NORMALIZAR TAMAÑO TEXTO */
+html {
+    font-size: 62.5%;
+
+}
+
+/* AJUSTE CONTENEDOR DE LA GRILLA */
+.contenedor {
+
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2px 2px;
+    background-image: url(../imagenes/WebP/fondopasteleriatransppx5.webp);
+    background-color: rgba(150, 100, 150, 0.5);
+    position: relative;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "head"
+        "bar"
+        "ppal"
+        "costado"
+        "pie";
+}
+
+/* AJUSTE DEL AREA HEAD */
+.head {
+
+    grid-area: head;
+    margin: 0 auto;
+    padding: 4px 4px 4px 4px;
+    background-color: rgba(150, 100, 150, 0.5);
+    background-image: url("../imagenes/WebP/profiterolCafeEscalada3.webp");
+    /*object-fit: cover;*/
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.modFavicom {
+    width: 27px;
+}
+
+/* AJUSTE DEL AREA NAVEGACION */
+.bar {
+
+    width: 95%;
+    grid-area: bar;
+    margin: 4px 4px;
+    padding: 2px 2px;
+    /*font-size: 1.2rem;*/
+
+
+}
+
+/* AJUSTE DEL AREA PRINCIPAL */
+.ppal {
+
+    grid-area: ppal;
+    background-color: rgba(242, 221, 185, 0.4);
+    margin: 0 auto;
+    padding: 2px 2px;
+    border: solid 1px black;
+    box-shadow: 4px 4px 2px 1px rgba(129, 107, 70, 1.0);
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+/* AJUSTE DEL AREA ASIDE */
+.costado {
+
+    grid-area: costado;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* AJUSTE DEL AREA PIE DE PAGINA */
+.pie {
+
+    grid-area: pie;
+    background-color: rgba(224, 214, 193, 0.3);
+    margin: 2px 2px;
+    padding: 1px 1px;
+    font-family: "Patrick Hand", cursive;
+}
+
+/* AJUSTES DEL NAVBAR DERECHA */
+.bar ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+
+}
+
+.bar ul li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.bar ul li a {
+    text-decoration: none;
+    font-family: "Patric Hand", cursive;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 2px 1px 2px 2px;
+    margin: 1px 5px 5px 5px;
+    color: rgba(17, 77, 119, 1.0);
+
+}
+
+.bar ul li a:hover {
+    font-weight: 800;
+    color: black;
+}
+
+
+/* AJUSTES CUERPO PPAL */
+
+
+.ppal div.columna img {
+
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 16px;
+    box-shadow: 4px 4px 2px 1px rgba(129, 107, 70, 1.0);
+    width: 110px;
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    padding: 2px 2px 2px 2px;
+
+}
+
+.ppal p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 1.5rem;
+}
+
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.columna {
+    flex: 16.66%;
+    padding: 1px;
+}
+
+
+
+/* AJUSTES PARA ASIDE */
+
+.costado {
+    text-align: center;
+    margin: 10px 10px;
+    padding: 2px 2px;
+    background-color: rgba(242, 221, 185, 0.4);
+    border: solid 1px black;
+    box-shadow: 4px 4px 2px 1px rgba(129, 107, 70, 1.0);
+    border-radius: 15px;
+}
+
+
+.costado div p {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 300;
+    line-height: 1.5rem;
+
+}
+
+.costado div p.videoMp4 {
+    text-align: left;
+    margin: 5px 5px 5px 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 300;
+    line-height: 1.5rem;
+
+}
+
+.costado div img {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 8px;
+    width: 75px;
+    height: 75px;
+    margin: 10px 10px 4px 60px;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+.costado div video {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 8px;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 5px 60px;
+    padding: 1px 1px 1px 1px;
+}
+
+.ppal section div ul li{
+    list-style: none;
+}
+
+/* AJUSTE DEL PIE DE PAGINA */
+.pie nav ul {
+
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pie nav ul li {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 2px;
+}
+
+.pie nav ul li a {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Patric Hand", cursive;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgba(17, 77, 119, 1.0);
+}
+
+
+.pie nav ul li a:hover {
+    font-weight: 800;
+    color: black;
+}
+
+
+/* AJUSTES TEXTO TITULOS */
+h1 {
+
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 2.5rem;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+h2 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+h3 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 2.3rem;
+    color: rgba(217, 97, 37, 1.0);
+    
+}
+
+h4 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 1.6rem;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+h5 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+h6 {
+
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* AJUSTES PARRAFO */
+p {
+
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin: 2px 4px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+p.parrafo1Pos {
+    width: 95%;
+    text-align: center;
+}
+
+.textoNormal {
+    /* Familia Roboto */
+    font-family: "Roboto";
+    font-size: 1rem;
+}
+
+.textoMediano {
+    font-family: "Roboto";
+    font-size: 1.5rem;
+}
+
+.textoGrande {
+    font-family: "Roboto";
+    font-size: 2rem;
+}
+
+
+.textoNorPatrick {
+    /* Familia Patric Hand */
+    font-family: "Patric Hand", cursive;
+    font-size: 1rem;
+}
+
+.textoMedPatrick {
+    font-family: "Patric Hand", cursive;
+    font-size: 1.5rem;
+}
+
+.textoGranPatrick {
+    font-family: "Patric Hand", cursive;
+    font-size: 2rem;
+}
+
+.textoDifColor {
+    color: rgba(133, 0, 0, 1.0);
+}
+
+.tituloCentro {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.centrarImagenes {
+    text-align: center;
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+p.hechoPor {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Patric Hand", cursive;
+    color: rgba(6, 110, 21, 1.0);
+}
+
+p.textoPieNav {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(74, 94, 210, 1.0);
+}
+
+.sideTituloCentro {
+    margin: 30px auto;
+    color: rgba(133, 0, 0, 1.0);
+}
+
+
+.novTituloCentro {
+    text-align: center;
+    font-family: "Patric Hand", cursive;
+    font-size: 2rem;
+    margin: 30px auto;
+    color: rgba(133, 0, 0, 1.0);
+}
+
+
+
+
+
+/* AJUSTES PAGINA NOVEDADES */
+
+.ppal div.ppalNov {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.ppal div img.novImgPos1 {
+    width: 28%;
+}
+
+.ppal div img.novImgPos2 {
+    width: 28%;
+}
+
+
+.novImgPos1 {
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 8px;
+    /*margin: 2px 10px 90px 10px;*/
+    padding: 2px 2px 2px 2px;
+
+}
+
+
+.novImgPos2 {
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 8px;
+    /*margin: 2px 30px 2px 10px;*/
+    padding: 2px 2px 2px 2px;
+
+}
+
+.ppal div p.novImg {
+
+    max-width: 300px;
+    margin: 0 auto;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+}   
+
+
+
+/* AJUSTES PAGINA PRODUCTOS */
+
+.ppal .productosCont{
+
+    display: flex;
+}
+
+.encabezadoTabla{
+    /*display: none;*/
+    display: flex;
+    font-size: 2rem;
+
+}
+
+.lineaTabla{
+    display: flex;
+    
+}
+
+.encabezadocolumna{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+
+}
+
+.cuerpoTabla{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cuerpoTabla tr td img{
+    width: 80px;
+}
+
+.cuerpoTabla tr td.txtTd{
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgba(133, 0, 0, 1.0);;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media only screen and (min-width: 768px) {
+
+    /* AJUSTE CONTENEDOR */
+
+
+    .contenedor {
+
+        width: 95%;
+        height: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 10vh 5vh 75vh 10vh;
+        grid-template-areas:
+            "head head head"
+            "bar bar bar"
+            "ppal ppal costado"
+            "pie pie pie";
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    /* AJUSTES HEADER */
+    .head {
+
+        width: 95%;
+        height: 100%;
+        padding: 4px 4px 4px 4px;
+        background-size: cover;
+
+    }
+
+    /* AJUSTES CUERPO PRINCIPAL */
+
+
+
+    .ppal {
+
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /*align-items: center;*/
+        justify-items: space-evenly;
+
+
+    }
+
+    .ppal div img {
+
+        width: 110px;
+        height: 110px;
+
+
+    }
+
+    /* AJUSTES CUERPO PRINCIPAL NOVEDADES */
+
+    .ppalNov {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+    }
+
+    .novedades{
+        display: flex;
+        align-items: flex-start;
+    }
+
+
+
+
+    .ppal div p.novImg {
+
+        flex: 1;
+        padding: 10px;
+
+
+    }
+
+
+
+    /* AJUSTES PARA AREA ASIDE */
+
+    .costado {
+        height: 95%;
+        width: 88%;
+        margin-top: 15px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+
+    aside div {
+        width: 250px;
+        height: 250px;
+    }
+
+
+
+    h3 {
+        font-family: "Patric Hand", cursive;
+        font-style: italic;
+        font-size: 2.3rem;
+        color: rgba(217, 97, 37, 1.0);
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+     /* AJUSTES CUERPO PRINCIPAL */
+    h3 {
+        font-family: "Patric Hand", cursive;
+        font-style: italic;
+        font-size: 2.3rem;
+        color: rgba(217, 97, 37, 1.0);
+    }
+
+
+    .ppal div img {
+        width: 120px;
+        height: 120px;
+        margin: 2px 2px;
+    }
+
+    .ppal p {
+
+        font-size: 1.9rem;
+        line-height: 1.9rem;
+        color: black;
+    }
+
+    .bar ul li a {
+
+        font-size: 2rem;
+        font-weight: 500;
+
+    }
+
+
+    .pie nav ul li a {
+
+        font-size: 2rem;
+        font-weight: 500;
+
+    }
+
+
+    .textoGranPatrick {
+        font-family: "Patric Hand", cursive;
+        font-size: 2.5rem;
+    }
+
+
+    /* AJUSTES PARA AREA ASIDE */
+
+
+
+    .costado div p {
+    text-align: center;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-left: 50px;
+    width: 80%;
+    }
+
+
+    .costado div p.videoMp4 {
+    text-align: center;
+    margin: 5px 5px 5px 50px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 300;
+    line-height: 1.5rem;
+    width: 80%;
+
+
+    }
+
+
+}

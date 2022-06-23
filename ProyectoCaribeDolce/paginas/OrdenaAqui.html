@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caribe Dolce Ordena Aqui</title>
+    <!--incluir el favicom-->
+    <link rel="shortcut icon" href="../imagenes/Logo/favicon.webp">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+
+<body class="contenedor">
+    <header class="head">
+        <!--Imagen del Logo-->
+        <a name="Arriba"></a>
+        <a href="../index.html">
+            <img src="../imagenes/Logo/DolceCaribeLogo.webp" alt="logo Dolce Caribe" class="modFavicom">
+        </a>
+        <h1> Caribe Dolce Ordena Aqui</h1>
+        <!--Inicio de colocacion de area navegacion: botonera-->
+        
+    </header>
+    <nav class="bar">
+            <!--Etiquetas para realizar desplazamiento arriba /abajo de la página-->
+            <ul>
+
+                <li>
+                    <a href="../paginas/QuienesSomos.html">Quienes somos</a>
+                </li>
+
+                <li>
+                    <a href="../paginas/Contactanos.html">Contactanos</a>
+                </li>
+
+                <li>
+                    <a href="../paginas/novedades.html">Novedades</a>
+                </li>
+
+                <li>
+                    <a href="../paginas/Productos.html">Productos</a>
+                </li>
+
+                <li>
+                    <a href="../index.html">Página inicial sitio</a>
+                </li>
+
+                <li>
+                    <a href="#abajo">Ir Abajo</a>
+                </li>
+
+                
+                
+                
+                
+            </ul>
+        </nav>
+    <main class="ppal">
+        <!--Introduir un formulario, inicia el formulario para colocar orden -->
+        <!--Área de solicitud datos personales-->
+        
+        <div class="ubicarFormulario">
+        
+        <form action="https://formsubmit.co/jose.matute.alcantara@gmail.com" method="post">
+            <fieldset>
+                <legend class="textoDiferenteFuente">Informacion Personal</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Antonio Mateos">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="nombre" placeholder="mail@algo.com">
+                <br>
+                <label for="Teléfono">Teléfono local</label>
+                <input type="texto" id="nombre" placeholder="026052525">
+                <br>
+                <label for="Mobil">Teléfono Mobil</label>
+                <input type="texto" id="nombre" placeholder="026052525">
+            </fieldset>
+            <!--Área de solicitud de productos-->
+            <fieldset>
+                <legend class="textoDiferenteFuente">Informacion de Pedido</legend>
+                <label for="CheeseCake">CheeseCake top de Maracuyá</label>
+                <input type="checkbox" id="CheeseCake" value="CheeseCake">
+                <br>
+                <label for="Profiteroles">Profiteroles de Colores</label>
+                <input type="checkbox" id="Profiteroles" value="Profiteroles">
+                <br>
+                <label for="MilHojas">Milhojas Crema Pastelera</label>
+                <input type="checkbox" id="MilHojas" value="MilHojas">
+                <br>
+                <label for="Surtido1">Bandeja de Surtido Pequeña</label>
+                <input type="checkbox" id="Surtido1" value="Surtido1">
+                <br>
+                <label for="Saladitos">Saladitos Rellenos de Jamón 500 grs</label>
+                <input type="checkbox" id="Saladitos" value="Saladitos">
+                <br>
+                <label for="Brownies">Brownies docena de</label>
+                <input type="checkbox" id="Brownies" value="Brownies">
+                <br>
+                <label for="Surtido2">Bandeja de Surtido Mediana</label>
+                <input type="checkbox" id="Surtido2" value="Surtido2">
+                <br>
+                <label for="Red Velvet">Red Velvet</label>
+                <input type="checkbox" id="Red Velvet" value="Red Velvet">
+            </fieldset>
+            <fieldset>
+                <legend class="textoDiferenteFuente">Escoje Tipo de Empaque &nbsp;(Costo Adicional&nbsp;)</legend>
+                <label for="SimplePapel">Papel Normal</label>
+                <input type="radio" name="envoltorio" id="SimplePapel" value="SimplePapel">
+                <br>
+                <label for="CompuestoPapel">Papel Normal+Térmico</label>
+                <input type="radio" name="envoltorio" id="CompuestoPapel" value="CompuestoPapel">
+                <br>
+                <label for="CajaCarton">Caja de Carton+Térmico+Papel Normal</label>
+                <input type="radio" name="envoltorio" id="CajaCarton" value="CajaCarton">
+                <br>
+            </fieldset>
+            <!--Área de datos de envio-->
+            <fieldset>
+                <legend class="textoDiferenteFuente">Informacion de Envio</legend>
+                <label for="Local">Retiro en el Local</label>
+                <input type="radio" id="Local" name="envio" value="Local">
+                <br>
+                <label for="Domicilio">Recibir en mi Domicilio</label>
+                <input type="radio" id="Domicilio" name="envio" value="Domicilio">
+                <br>
+                <label for="Departamentos" class="textoDiferenteFuente">Localidad</label>
+                <select name="Departamentos" id="Departamentos">
+                    <option value="Montevideo">Montevideo</option>
+                    <option value="San José">San José de Mayo</option>
+                    <option value="Canelones">Canelones</option>
+                    <option value="Maldonado">Maldonado</option>
+                    <option value="Colonia">Colonia del Sacramento</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Flores">Flores</option>
+                    <option value="Lavalleja">Minas</option>
+                </select>
+            </fieldset>
+            <div class="textArea">
+                <!--Área para comentarios-->
+                <label for="Mensaje" class="textoDiferenteFuente">Mensaje</label>
+                <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Escribe cualquier requerimiento especial" class="textAreaSinBorde">
+                </textarea>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+                
+            </div>
+        </form>
+
+        </div>
+
+        <!--finaliza formulario-->
+       
+    </main>
+    <!--enlaces para desplazarse arriba/abajo de la página-->
+    <!--Comienza el footer-->
+    <footer class="pie">
+        <!--Acceso a contacto directo via redes sociales-->
+        <p class="parrafo1Pos textoPieNav">Contacto directo via redes sociales</p>
+        <nav>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://wa.me/59897966435"><img src="../imagenes/LogoMediaSocial/WebP/Whatsapp.webp" alt="Whatsapp Icon" width="20"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com"><img src="../imagenes/LogoMediaSocial/WebP/facebook.webp" alt="Facebook Icon" width="20"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.twitter.com"><img src="../imagenes/LogoMediaSocial/Webp/Twitter.webp" alt="Twitter Icon" width="20"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com"><img src="../imagenes/LogoMediaSocial/WebP/Instagram.webp" alt="Instagrams Icon" width="20"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox"><img src="../imagenes/LogoMediaSocial/WebP/gmail.webp" alt="Gmail" width="20"></a>
+                </li>
+                <li>
+                    <a href="#Arriba" class="irArriba derecha">Ir Arriba<a>
+                </li>
+            </ul>
+            <p class="parrafo1Pos hechoPor">Sitio creado por José Rafael Matute Alcántara</p>
+            <a name="abajo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
