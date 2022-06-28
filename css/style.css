@@ -1,0 +1,434 @@
+/* Agregar tipografía adiciona*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@300;400&display=swap');
+
+
+
+
+/* NORMALIZAR TAMAÑO TEXTO */
+html {
+    font-size: 62.5%;
+}
+
+
+
+/* AJUSTES TEXTO TITULOS */
+h1 {
+
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 5.5rem;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+h2 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 5rem;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+h3 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 4.5rem;
+    color: rgba(217, 97, 37, 1.0);
+
+}
+
+h4 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 4rem;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+h5 {
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h6 {
+
+    font-family: "Patric Hand", cursive;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+/* AJUSTES TEXTO Y PARRAFOs */
+p {
+
+    /*font-family: "Patric Hand", cursive;*/
+    font-style: italic;
+    /*font-size: 1.5rem;*/
+    line-height: 1rem;
+    margin: 2px 4px 2px 4px;
+    padding: 2px 2px 2px 2px;
+    color: aliceblue;
+}
+
+p.parrafo1Pos {
+    width: 95%;
+    text-align: center;
+}
+
+.textoNormal {
+    font-family: "Roboto";
+    font-size: 1.5rem;
+}
+
+.textoMediano {
+    font-family: "Roboto";
+    font-size: 2rem;
+}
+
+.texto-Grande {
+    font-family: "Roboto";
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: oblique;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+.texto-naranja {
+    color: rgba(217, 97, 37, 1.0);
+}
+
+.texto-NorPatrick {
+    font-family: "Patric Hand", cursive;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.texto-MedPatrick {
+    font-family: "Patric Hand", cursive;
+    font-size: 2.5rem;
+}
+
+.texto-GranPatrick {
+    font-family: "Patric Hand", cursive;
+    font-size: 3rem;
+}
+
+.text-DifColor {
+    color: rgba(13, 145, 56, 1.0);
+
+}
+
+.tituloCentro {
+    text-align: center;
+    font-family: "Patric Hand", cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(133, 0, 0, 1.0);
+}
+
+
+.centrarImagenes {
+    text-align: center;
+
+}
+
+p.hechoPor {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Patric Hand", cursive;
+    color: rgba(6, 110, 21, 1.0);
+}
+
+p.textoPieNav {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(74, 94, 210, 1.0);
+}
+
+.sideTitulo {
+    margin-top: 100px;
+    color: rgba(133, 0, 13, 1.0);
+    font-size: 2rem;
+}
+
+
+.novTituloCentro {
+    text-align: center;
+    font-family: "Patric Hand", cursive;
+    font-size: 2rem;
+    margin: 30px auto;
+    color: rgba(133, 0, 0, 1.0);
+}
+
+.txtTableHead{
+    font-size: 3rem;
+}
+
+.txtTableData{
+    font-size: 2rem;
+}
+
+/* MODIFICACION CUERPO */
+
+.fondoBody {
+
+    background-image: url(../imagenes/WebP/fondopasteleriatransppx5.webp);
+    background-color: rgba(150, 100, 150, 0.5);
+    max-height: 100%;
+    max-width: 95%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+
+/* AJUSTES DEL NAVBAR */
+
+.fondoNavBar {
+
+    background-image: url("../imagenes/svg/ProfiterolCafe.svg");
+    background-repeat: no-repeat;
+    transform: scale(0.988658);
+    border: solid 1px black;
+    border-top-right-radius: 15px;
+    box-shadow: 4px 4px 2px 1px rgba(129, 107, 70, 1.0);
+
+}
+
+/* MODIFICACION TEXTO DEL NAVBAR */
+
+.navbar-light .navbar-nav .nav-link {
+    font-style: oblique;
+    font-weight: 800;
+    color: rgba(217, 97, 37, 1.0);
+
+}
+
+/* HOVER PARA EL NAVBAR */
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 800;
+    color: black;
+}
+
+/* MODIFICACION TAMAÑO DEL FAVICOM */
+
+.modFavicom {
+    width: 27px;
+}
+
+/* MODIFICACION TEXTO DEL DROPDOWN LIST */
+
+.dropdown .dropdown-item {
+    font-family: "Patric Hand", cursive;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 800;
+    color: rgba(217, 97, 37, 1.0);
+}
+
+
+/* HOVER PARA EL DROPDOWN LIST */
+
+.dropdown .dropdown-item:hover {
+    font-weight: 800;
+    color: black;
+}
+
+.dropdown .dropdown-item {
+    background-color: rgba(150, 100, 150, 0.2);
+}
+
+
+/* PRESENTACION DIFERENTE DEL CUERPO PRINCIPAL */
+
+.ppal {
+    margin: 20px auto;
+    border: solid 2px black;
+    background-color: rgba(129, 107, 50, 0.3) !important;
+    border-top-right-radius: 12px;
+}
+
+.col {
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.col img {
+    border-style: solid;
+    border-width: 3px;
+    border-top-right-radius: 16px;
+    box-shadow: 10px 10px 3px 1px rgba(129, 107, 70, 1.0);
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 160px;
+    height: 160px;
+
+}
+
+
+
+/* PRESENTACION DIFERENTE DE ASIDE */
+
+
+
+.costado {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.costado div img {
+
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 8px;
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+    padding: 2px 2px 2px 2px;
+    float: left;
+
+}
+
+.costado div video {
+
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 8px;
+    width: 140px;
+    height: 140px;
+    margin-left: 200x;
+    margin-right: 20px;
+    padding: 1px 1px 1px 1px;
+    float: left;
+}
+
+.textoPCuriosidades {
+    margin: 5px 5px 5px 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    line-height: 1.5rem;
+    max-width: 400px;
+}
+
+.textoVideoMp4 {
+    margin: 5px 5px 5px 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    line-height: 1.5rem;
+    max-width: 400px;
+}
+
+/* AJUSTE DEL PIE DE PAGINA */
+
+.pie ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pie ul li {
+
+    list-style-type: none;
+}
+
+/* AJUSTES NOVEDADES */
+
+.nov{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+/* AJUSTES ORDENA AQUÍ */
+
+.fondoCamposOrdena{
+    background-color: rgba(207, 183, 168, 0.4);
+}
+
+textarea::placeholder{
+    font-size: 1.5rem;
+    color: rgba(193, 2, 221, 1.0);
+}
+
+.textAreaOrdena{
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgba(207, 183, 168, 0.4);
+}
+
+
+/* AJUSTES CONTACTANOS */
+
+.textAreaNov{
+   margin: 0 auto;
+   width: 400px;
+   background-color: rgba(207, 183, 168, 0.4);
+}
+
+
+
+/* ANIMACIONES */
+
+/*
+@keyframes textoIncrPaulatinoAlpha{
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes textoIncrPaulatinoSize{
+
+    from {
+        font-size: 0.8rem;
+    }
+
+    to {
+        font-size: 2.5rem;
+    }
+}
+
+
+@keyframes novImgIncrPaulatinoSize{
+
+    from {
+         width: 10%;
+    }
+
+    to {
+        width: 25%;
+    }
+}
+*/
+/* FIN DE ANIMACIONES */
+
+
+/*
+.novImgIncrPaulatinoSize{
+    animation-name: novImgIncrPaulatinoSize; 
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+}*/
+
+
+
+
+
+
+
