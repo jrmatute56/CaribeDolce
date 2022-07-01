@@ -47,6 +47,8 @@ h5 {
     font-style: italic;
     font-size: 3.5rem;
     font-weight: 600;
+    animation-name: textoIncrPaulatinoSize;
+    animation-duration: 10s;
 }
 
 h6 {
@@ -158,11 +160,11 @@ p.textoPieNav {
     color: rgba(133, 0, 0, 1.0);
 }
 
-.txtTableHead{
+.txtTableHead {
     font-size: 3rem;
 }
 
-.txtTableData{
+.txtTableData {
     font-size: 2rem;
 }
 
@@ -184,8 +186,8 @@ p.textoPieNav {
 
 .fondoNavBar {
 
-    background-image: url("../imagenes/svg/ProfiterolCafe.svg");
-    background-repeat: cover;
+
+    background: linear-gradient(280deg, rgba(170, 173, 120, 0.4)20%, rgba(102, 148, 36, 0.4)40%);
     border: solid 1px black;
     border-top-right-radius: 15px;
     box-shadow: 4px 4px 2px 1px rgba(129, 107, 70, 1.0);
@@ -232,9 +234,25 @@ p.textoPieNav {
     color: black;
 }
 
+
+/* CAMBIO EN DROPDOWN */
+
 .dropdown .dropdown-item {
-    background-color: rgba(150, 100, 150, 0.2);
+    background-color: rgba(189, 193, 196, 0.2);
 }
+
+
+.cambioTamañoDropdown {
+    width: 140px;
+
+}
+
+.cambioFondoDropDown {
+    background-color: rgba(189, 193, 196, 0.1);
+}
+
+
+
 
 
 
@@ -252,7 +270,7 @@ p.textoPieNav {
 
 /*AJUSTAR IMAGENES*/
 
-.bordeSombra{
+.bordeSombra {
     border-style: solid;
     border-width: 2px;
     border-top-right-radius: 16px;
@@ -281,7 +299,7 @@ p.textoPieNav {
 
 }
 
-.col video{
+.col video {
     border-style: solid;
     border-width: 2px;
     border-top-right-radius: 16px;
@@ -303,7 +321,7 @@ p.textoPieNav {
 
 
 
-.sombraNovedades{
+.sombraNovedades {
     border-style: solid;
     border-width: 2px;
     border-top-right-radius: 20px;
@@ -355,7 +373,7 @@ p.textoPieNav {
     color: black;
     font-weight: 600;
     line-height: 1.5rem;
-   
+
 }
 
 .textoVideoMp4 {
@@ -365,7 +383,7 @@ p.textoPieNav {
     color: black;
     font-weight: 600;
     line-height: 1.5rem;
-    
+
 }
 
 /* AJUSTE DEL PIE DE PAGINA */
@@ -382,7 +400,11 @@ p.textoPieNav {
 
 /* AJUSTES NOVEDADES */
 
-.nov{
+.tamañoTarjeta {
+    max-width: 560px;
+}
+
+.nov {
 
     display: flex;
     justify-content: center;
@@ -395,16 +417,16 @@ p.textoPieNav {
 
 /* AJUSTES ORDENA AQUÍ */
 
-.fondoCamposOrdena{
+.fondoCamposOrdena {
     background-color: rgba(207, 183, 168, 0.4);
 }
 
-textarea::placeholder{
+textarea::placeholder {
     font-size: 1.5rem;
     color: rgba(193, 2, 221, 1.0);
 }
 
-.textAreaOrdena{
+.textAreaOrdena {
     margin: 0 auto;
     width: 400px;
     background-color: rgba(207, 183, 168, 0.4);
@@ -413,29 +435,33 @@ textarea::placeholder{
 
 /* AJUSTES CONTACTANOS */
 
-.textAreaNov{
-   margin: 0 auto;
-   width: 400px;
-   background-color: rgba(207, 183, 168, 0.4);
+.textAreaNov {
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgba(207, 183, 168, 0.4);
 }
+
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (min-width: 270px) and (max-width: 768px) {
+
+    .tamañoImgNov {
+
+        width: 35%;
+
+    }
+
+}
+
 
 
 
 /* ANIMACIONES */
 
-/*
-@keyframes textoIncrPaulatinoAlpha{
-
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes textoIncrPaulatinoSize{
+@keyframes textoIncrPaulatinoSize {
 
     from {
         font-size: 0.8rem;
@@ -446,32 +472,4 @@ textarea::placeholder{
     }
 }
 
-
-@keyframes novImgIncrPaulatinoSize{
-
-    from {
-         width: 10%;
-    }
-
-    to {
-        width: 25%;
-    }
-}
-*/
 /* FIN DE ANIMACIONES */
-
-
-/*
-.novImgIncrPaulatinoSize{
-    animation-name: novImgIncrPaulatinoSize; 
-    animation-duration: 10s;
-    animation-iteration-count: 10;
-    animation-direction: alternate;
-}*/
-
-
-
-
-
-
-
