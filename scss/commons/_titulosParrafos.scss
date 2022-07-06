@@ -1,0 +1,161 @@
+/* AJUSTES TEXTO TITULOS */
+h1 {
+
+    font-family: $tipografiaPrimaria;
+    font-style: $estiloTipografico1;
+    font-size: $tamañoTitulo1;
+    color: $octavoColor;
+}
+
+h2 {
+    font-family: $tipografiaPrimaria;
+    font-style: $estiloTipografico1;
+    font-size: $tamañoTitulo2;
+    color:$octavoColor;
+}
+
+h3 {
+    font-family:$tipografiaPrimaria;
+    font-style: $estiloTipografico1;
+    font-size: $tamañoTitulo3;
+    color: $octavoColor;
+
+}
+
+h4 {
+    font-family: $tipografiaPrimaria;
+    font-style: $estiloTipografico1;
+    font-size: $tamañoTitulo4;
+    color:$octavoColor;
+}
+
+h5 {
+    font-family:$tipografiaPrimaria;
+    font-style: $estiloTipografico1;
+    font-size: $tamañoTitulo5;
+    font-weight: $pesoTipografia1;
+    animation-name: textoIncrPaulatinoSize;
+    animation-duration: 10s;
+    color:black;
+}
+
+h6 {
+
+    font-family: $tipografiaPrimaria;
+    font-style:$estiloTipografico1;
+    font-size: $tamañoTitulo6;
+}
+
+/* AJUSTES TEXTO Y PARRAFOs */
+p {
+
+    font-style: $estiloTipografico1;
+    line-height:$entreLinea1;
+    margin: $margen1;
+    padding: $relleno1;
+    color: $decimoCuartoColor;
+
+}
+
+p.parrafo1Pos {
+    width:$anchoParrafo;
+    text-align:$alinearCentro;
+}
+
+.textoNormal {
+    font-family: $tipografiaSecundaria;
+    font-size: $tamañoLetra1;
+}
+
+.textoMediano {
+    font-family:$tipografiaSecundaria;
+    font-size: $tamañoLetra2;
+    color: $decimoCuartoColor;
+}
+
+.texto-Grande {
+    font-family: $tipografiaSecundaria;
+    font-size: $tamañoLetra3;
+    font-weight: $pesoTipografia1;
+    font-style: $estiloTipografico2;
+    color:$octavoColor;
+}
+
+.texto-naranja {
+    color: $octavoColor;
+}
+
+.texto-NorPatrick {
+    font-family: $tipografiaPrimaria;
+    font-size: $tamañoLetra1;
+    line-height: $entreLinea2;
+}
+
+.texto-MedPatrick {
+    font-family:$tipografiaPrimaria;
+    font-size: $tamañoLetra2;
+}
+
+.texto-GranPatrick {
+    font-family: $tipografiaPrimaria;
+    font-size: $tamañoLetra3;
+}
+
+.text-DifColor {
+    color: $undecimoColor;
+
+
+}
+
+.tituloCentro {
+    text-align: $alinearCentro;
+    font-family: $tipografiaPrimaria;
+    margin-top: $margenTop1;
+    margin-bottom: $margenBottom;
+    color:$decimoColor;
+}
+
+
+.sideTitulo {
+    margin-top: $margenTop2;
+    font-size: $tamañoLetra2;
+    color:$decimoColor;
+}
+
+
+.novTituloCentro {
+    text-align: $alinearCentro;
+    font-family: $tipografiaPrimaria;
+    font-size:$tamañoLetra2;
+    margin: $margen2;
+    color: $decimoColor;
+}
+
+
+
+.centrarImagenes {
+    text-align: $alinearCentro;
+
+}
+
+p.hechoPor {
+    font-size: $tamañoXpequeño;
+    font-weight: $pesoTipografia1;
+    font-family: $tipografiaPrimaria;
+    color: $duodecimoColor;
+}
+
+p.textoPieNav {
+    font-size: $tamañopequeño;
+    font-weight: $pesoTipografia1;
+    color:$decimoTercerColor;
+}
+
+
+.txtTableHead{
+    font-size: $tamañoLetra3;
+}
+
+.txtTableData{
+    font-size: $tamañoLetra2;
+}

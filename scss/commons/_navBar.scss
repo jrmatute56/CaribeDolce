@@ -1,0 +1,53 @@
+/* AJUSTE NAVBAR */
+
+
+.fondoNavBar {
+
+    background: linear-gradient(289deg, rgba(170, 173, 120, 0.4)20%, rgba(102, 148, 36, 0.4)40%);    
+    border: solid 1px black;
+    border-top-right-radius: 15px;
+    box-shadow: 4px 4px 2px 1px $tercerColor;
+
+
+}
+
+
+/* MODIFICACION TEXTO DEL NAVBAR */
+
+#navbarNavDropdown ul li a{
+    font-style: $estiloTipografico2;
+    font-weight: $pesoTipografia2;
+    color: $octavoColor;
+    font-size: $tamañoLetra1;
+    &:hover {
+    font-weight: $pesoTipografia2;
+    color: black;
+    }
+
+
+}
+
+/* CAMBIO EN DROPDOWN */
+
+
+ul li.dropdown{
+    width: $tamañoDropDown;
+
+    ul.dropdown-menu{
+        background-color: $sextoColor;
+
+        a.dropdown-item{
+            background-color: $sextoColor;
+        }
+
+    }
+
+}
+  
+
+/* MODIFICACION TAMAÑO DEL FAVICOM */
+
+.modFavicom {
+    width: $tamañoFavicom;
+}
+

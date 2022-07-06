@@ -1,0 +1,71 @@
+/* PRESENTACION DIFERENTE CUERPO PRINCIPAL */
+
+
+
+.ppal {
+    margin: $margen3;
+    border: $borde1;
+    background-color: $segundoColor !important;
+    border-top-right-radius: $rightTopRadius1;
+}
+
+/* AJUSTAR IMAGENES EN INDEX-NOVEDADES */
+
+
+.bordeSombra{
+    border: $borde1;
+    border-top-right-radius: $rightTopRadius2;
+    box-shadow: 10px 10px 3px 1px $tercerColor;
+    margin-right: $margen4;
+    margin-bottom: $margen5;
+}
+
+
+
+.col {
+    margin: $margen7;
+    padding: $relleno3;
+
+    img {
+        border: $borde1;
+        border-top-right-radius: $rightTopRadius2;
+        box-shadow: 10px 10px 3px 1px $tercerColor;
+        margin-right: $margen4;
+        margin-bottom: $margen5;
+        width: $ancho1;
+        height: $alto1;
+
+    }
+
+    video{
+        border: $borde1;
+        border-top-right-radius: $rightTopRadius2;
+        box-shadow: 10px 10px 3px 1px $tercerColor;
+        margin-right: $margen4;
+        margin-bottom: $margen5;
+        width: $ancho1;
+        height: $alto1;
+    }
+}
+
+/* AJUSTE TEXTO INDEX-NOVEDADES CURIOSIDADES */
+
+.textoPCuriosidades {
+    margin: $margen6;
+    padding-left: $relleno2;
+    font-size: $tamañoLetra1;
+    color:black;
+    font-weight: $pesoTipografia1;
+    line-height: $entreLinea3;
+   
+}
+
+.textoVideoMp4 {
+    margin: $margen6;
+    padding-left: $relleno2;
+    font-size: $tamañoLetra1;
+    color: black;
+    font-weight: $pesoTipografia1;
+    line-height: $entreLinea3;
+    
+}

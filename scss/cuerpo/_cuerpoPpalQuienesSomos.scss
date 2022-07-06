@@ -1,0 +1,49 @@
+//CUERPO CURIOSIDADES
+
+
+
+.sombraNovedades{
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: px;
+    box-shadow: 10px 10px 3px 1px rgba(129, 107, 70, 1.0);
+}
+
+
+
+/* AJUSTE IMAGENES-VIDEOS QUIENES SOMOS */
+
+.costado {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.costado div img {
+
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 8px;
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+    padding: 2px 2px 2px 2px;
+    float: left;
+
+}
+
+.costado div video {
+
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 8px;
+    width: 140px;
+    height: 140px;
+    margin-left: 5x;
+    margin-right: 20px;
+    padding: 1px 1px 1px 1px;
+    float: left;
+}
