@@ -141,12 +141,6 @@ p.textoPieNav {
   font-weight: 600;
   color: #4a5ed2; }
 
-.txtTableHead {
-  font-size: 3rem; }
-
-.txtTableData {
-  font-size: 2rem; }
-
 /* MODIFICACION CUERPO */
 .fondoBody {
   background-image: url(../imagenes/WebP/fondopasteleriatransppx5.webp);
@@ -218,6 +212,9 @@ ul li.dropdown {
   margin-right: 10px;
   margin-bottom: 20px; }
 
+.galFotos {
+  width: 150px; }
+
 .col {
   margin: 0 auto;
   padding: 5px 5px 5px 5px; }
@@ -227,16 +224,16 @@ ul li.dropdown {
     box-shadow: 10px 10px 3px 1px #816b46;
     margin-right: 10px;
     margin-bottom: 20px;
-    width: 100px;
-    height: 100px; }
+    width: 150px;
+    height: 150px; }
   .col video {
     border: solid 2px black;
     border-top-right-radius: 16px;
     box-shadow: 10px 10px 3px 1px #816b46;
     margin-right: 10px;
     margin-bottom: 20px;
-    width: 100px;
-    height: 100px; }
+    /*width: $ancho1;*/
+    height: 250px; }
 
 /* AJUSTE TEXTO INDEX-NOVEDADES CURIOSIDADES */
 .textoPCuriosidades {
@@ -255,40 +252,12 @@ ul li.dropdown {
   font-weight: 600;
   line-height: 1.5rem; }
 
-.sombraNovedades {
-  border-style: solid;
-  border-width: 2px;
-  border-top-right-radius: px;
-  box-shadow: 10px 10px 3px 1px #816b46; }
-
-/* AJUSTE IMAGENES-VIDEOS QUIENES SOMOS */
-.costado {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px; }
-
-.costado div img {
-  border-style: solid;
-  border-width: 2px;
-  border-top-right-radius: 8px;
-  width: 140px;
-  height: 140px;
-  margin-right: 20px;
-  padding: 2px 2px 2px 2px;
-  float: left; }
-
-.costado div video {
-  border-style: solid;
-  border-width: 2px;
-  border-top-right-radius: 8px;
-  width: 140px;
-  height: 140px;
-  margin-left: 5x;
-  margin-right: 20px;
-  padding: 1px 1px 1px 1px;
-  float: left; }
+/* AJUSTE Ppal1 */
+.ppal1 {
+  margin: 20px auto;
+  border: solid 2px black;
+  border-top-right-radius: 12px;
+  background: linear-gradient(289deg, rgba(170, 173, 120, 0.4) 20%, rgba(102, 148, 36, 0.4) 40%); }
 
 .pie ul {
   display: flex;
@@ -297,12 +266,31 @@ ul li.dropdown {
     list-style-type: none; }
 
 /* AJUSTES NOVEDADES */
-.nov {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px; }
+.tamañoTarjeta {
+  max-width: 560px; }
+
+.sombraNovedades {
+  border-style: solid;
+  border-width: 2px;
+  border-top-right-radius: 2px;
+  box-shadow: 10px 10px 3px 1px #816b46; }
+
+.recienAgregado {
+  font-size: 1.4rem;
+  color: #0d9138; }
+
+.tamañoImagenesTabla {
+  width: 150px; }
+
+.txtTableHead {
+  font-size: 3rem; }
+
+.txtTableData {
+  font-size: 2rem; }
+
+.tablaCaption {
+  font-size: 3.5rem;
+  font-weight: 600; }
 
 /* AJUSTES ORDENA AQUÍ */
 .fondoCamposOrdena {
@@ -316,6 +304,23 @@ textarea::placeholder {
   margin: 0 auto;
   width: 400px;
   background-color: rgba(207, 183, 168, 0.4); }
+
+.costado {
+  border: solid black 2px;
+  border-top-right-radius: 8px;
+  width: 140px;
+  height: 140px;
+  margin-right: 20px;
+  padding: 2px 2px 2px 2px; }
+
+section div video {
+  border-style: solid;
+  border-width: 2px;
+  border-top-right-radius: 8px;
+  height: 140px;
+  margin-left: 5x;
+  margin-right: 20px;
+  padding: 1px 1px 1px 1px; }
 
 /* AJUSTES CONTACTANOS */
 .textAreaNov {

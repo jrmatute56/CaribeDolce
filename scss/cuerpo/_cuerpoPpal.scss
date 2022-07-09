@@ -20,7 +20,9 @@
     margin-bottom: $margen5;
 }
 
-
+.galFotos{
+    width: $ancho1;
+}
 
 .col {
     margin: $margen7;
@@ -35,6 +37,7 @@
         width: $ancho1;
         height: $alto1;
 
+
     }
 
     video{
@@ -43,8 +46,9 @@
         box-shadow: 10px 10px 3px 1px $tercerColor;
         margin-right: $margen4;
         margin-bottom: $margen5;
-        width: $ancho1;
-        height: $alto1;
+        /*width: $ancho1;*/
+        height: 250px;
+
     }
 }
 

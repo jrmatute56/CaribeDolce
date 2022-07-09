@@ -1,49 +1,14 @@
-//CUERPO CURIOSIDADES
 
 
+/* AJUSTE Ppal1 */
 
-.sombraNovedades{
-    border-style: solid;
-    border-width: 2px;
-    border-top-right-radius: px;
-    box-shadow: 10px 10px 3px 1px rgba(129, 107, 70, 1.0);
+
+.ppal1{
+
+   margin: $margen3; 
+   border: $borde1; 
+   border-top-right-radius: $rightTopRadius1;
+   background: linear-gradient(289deg, rgba(170, 173, 120, 0.4)20%, rgba(102, 148, 36, 0.4)40%); 
 }
 
 
-
-/* AJUSTE IMAGENES-VIDEOS QUIENES SOMOS */
-
-.costado {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-
-.costado div img {
-
-    border-style: solid;
-    border-width: 2px;
-    border-top-right-radius: 8px;
-    width: 140px;
-    height: 140px;
-    margin-right: 20px;
-    padding: 2px 2px 2px 2px;
-    float: left;
-
-}
-
-.costado div video {
-
-    border-style: solid;
-    border-width: 2px;
-    border-top-right-radius: 8px;
-    width: 140px;
-    height: 140px;
-    margin-left: 5x;
-    margin-right: 20px;
-    padding: 1px 1px 1px 1px;
-    float: left;
-}
