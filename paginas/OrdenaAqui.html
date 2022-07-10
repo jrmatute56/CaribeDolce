@@ -49,129 +49,221 @@
     <div class="container-fluid ppal">
         <!--Introduir un formulario, inicia el formulario para colocar orden -->
         <!--Área de solicitud datos personales-->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 tamañoMaximoForm">
             <form action="https://formsubmit.co/jose.matute.alcantara@gmail.com" method="post" class="row">
                 <h6>Datos Personales</h6>
                 <!-- Formulario de datos cliente -->
-                <div class="col-3">
-                    <label for="nombre" class="form-label fs-2">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Antonio Mateos" class="form-control fs-3 fondoCamposOrdena">
+
+                <div class="row">
+                    <label for="nombre" class="col-2 form-label fs-2 my-2">Nombre:</label>
+                    <div class="col-10">
+                        <input type="text" id="nombre" placeholder="Antonio Mateos" class="form-control fs-3 fondoCamposOrdena">
+                    </div>
+                    <label for="E-mail" class=" col-2 form-label fs-2 my-2">E-mail:</label>
+                    <div class="col-10">
+                        <input type="E-mail" id="nombre" placeholder="mateos65@gmail.com" class="form-control fs-3 fondoCamposOrdena">
+                    </div>
+                    <label for="Telefono" class="col-3 form-label fs-2">Teléfono Local:</label>
+                    <div class="col-3">
+                        <input type="text" id="nombre" placeholder="026270505" class="form-control fs-3 fondoCamposOrdena">
+                    </div>
+                    <label for="Mobil" class="col-3 form-label fs-2">Teléfono Celular:</label>
+                    <div class="col-3">
+                        <input type="text" id="nombre" placeholder="59398381567" class="form-control fs-3 fondoCamposOrdena">
+                    </div>
+                    <div class="col-2 my-3">
+                        <input type="radio" id="Local" name="envio" value="Local">
+                    </div>
+                    <label for="Local" class="col-4 form-label fs-2">Retiro en Local</label>
+                    <div class="col-2 my-3">
+                        <input type="radio" id="Domicilio" name="envio" value="Domicilio">
+                    </div>
+                    <label for="Domicilio" class="col-4 form-label fs-2">Domicilio</label>
+                    <label for="Direccion" class="col-2 form-label fs-2">Direccion:</label>
+                    <div class="col-9 mx-2">
+                        <input type="text" id="Direccion" name="envio" class="form-control fs-3 fondoCamposOrdena" placeholder="Escribe tu direccion">
+                    </div>
+                    <label for="Departamentos" class="col-2 form-label fs-2 mt-3">Localidad:</label>
+                    <div class="col-6 mt-3">
+                        <select name="Departamentos" id="Departamentos" class="fs-3 mx-2 fondoCamposOrdena">
+                            <option value="Montevideo" class="fs-3">Montevideo</option>
+                            <option value="San José" class="fs-3">San José de Mayo</option>
+                            <option value="Canelones" class="fs-3">Canelones</option>
+                            <option value="Maldonado" class="fs-3">Maldonado</option>
+                            <option value="Colonia" class="fs-2">Colonia del Sacramento</option>
+                            <option value="Florida" class="fs-3">Florida</option>
+                            <option value="Flores" class="fs-3">Flores</option>
+                            <option value="Lavalleja" class="fs-3">Minas</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <label for="E-mail" class="form-label fs-2">E-mail</label>
-                    <input type="E-mail" id="nombre" placeholder="mateos65@gmail.com" class="form-control fs-3 fondoCamposOrdena">
-                </div>
-                <div class="col-3">
-                    <label for="Telefono" class="form-label fs-2">Teléfono Local</label>
-                    <input type="text" id="nombre" placeholder="026270505" class="form-control fs-3 fondoCamposOrdena">
-                </div>
-                <div class="col-3">
-                    <label for="Mobil" class="form-label fs-2">Teléfono Celular</label>
-                    <input type="text" id="nombre" placeholder="59398381567" class="form-control fs-3 fondoCamposOrdena">
-                </div>
-                <div class="col-2 mt-4">
-                    <input type="radio" id="Local" name="envio" value="Local">
-                    <label for="Local" class="form-label fs-2">Retiro en el Local</label>
-                </div>
-                <div class="col-3 mt-4">
-                    <input type="radio" id="Domicilio" name="envio" value="Domicilio">
-                    <label for="Domicilio" class="form-label fs-2">Entrega Domicilio</label>
-                </div>
-                <div class="col-8 mt-1 mx-1">
-                    <label for="Direccion" class="form-label fs-2">Direccion:</label>
-                    <input type="text" id="Direccion" name="envio" value="Direccion" class="form-control fs-3 fondoCamposOrdena" placeholder="Escribe tu direccion">
-                </div>
-                <div class="col-3 mt-1">
-                    <label for="Departamentos" class="form-label fs-2">Localidad:</label>
-                    <select name="Departamentos" id="Departamentos" class="fs-3 mx-2 fondoCamposOrdena">
-                        <option value="Montevideo" class="fs-3">Montevideo</option>
-                        <option value="San José" class="fs-3">San José de Mayo</option>
-                        <option value="Canelones" class="fs-3">Canelones</option>
-                        <option value="Maldonado" class="fs-3">Maldonado</option>
-                        <option value="Colonia" class="fs-2">Colonia del Sacramento</option>
-                        <option value="Florida" class="fs-3">Florida</option>
-                        <option value="Flores" class="fs-3">Flores</option>
-                        <option value="Lavalleja" class="fs-3">Minas</option>
-                    </select>
-                </div>
+
+
+
+
+                
                 <!-- Seleccionar postre de preferencia -->
                 <h6>Postres</h6>
-                <div class="col-12 mt-4">
-                    <input class="mt-2 mx-2" type="checkbox" id="CheeseCake" value="CheeseCake">
-                    <label for="CheeseCake" class="form-label mt-2 mx-2 fs-3">CheeseCake</label>
-                    <input type="checkbox" id="Profiteroles" value="Profiteroles" class="mt-2 mx-2">
-                    <label for="Profiteroles" class="form-label mt-2 mx-2 fs-3">Profiteroles</label>
-                    <input type="checkbox" id="MilHojas" value="MilHojas" class="mt-2 mx-2">
-                    <label for="MilHojas" class="form-label mt-2 mx-2 fs-3">Milhojas</label>
-                    <input type="checkbox" id="Surtido1" value="Surtido1" class="mt-2 mx-2">
-                    <label for="Surtido1" class="form-label mt-2 mx-2 fs-3">Bandeja Surtida Pequeña</label>
-                    <input type="checkbox" id="Saladitos" value="Saladitos" class="mt-2 mx-2">
-                    <label for="Saladitos" class="form-label mt-2 mx-2 fs-3">Saladitos de Jamón 500 grs</label>
-                    <input type="checkbox" id="Brownies" value="Brownies" class="mt-2 mx-2">
-                    <label for="Brownies" class="form-label mt-2 mx-2 fs-3">Brownies docena</label>
-                    <input type="checkbox" id="Surtido2" value="Surtido2" class="mt-2 mx-2">
-                    <label for="Surtido2" class="form-label mt-2 mx-2 fs-3">Bandeja Surtida Mediana</label>
-                    <input type="checkbox" id="Red Velvet" value="Red Velvet" class="mt-2 mx-2">
-                    <label for="Red Velvet" class="form-label mt-2 mx-2 fs-3">Red Velvet</label>
-                    <input type="checkbox" id="Especial" value="Especial" class="mt-2 mx-2">
-                    <label for="Especial" class="form-label mt-2 mx-2 fs-3">Orden Especial</label>
+
+                <div class="row">
+                    <div class="col-4">
+                        <input class="mt-2" type="checkbox" id="CheeseCake" value="CheeseCake">
+                        <label for="CheeseCake" class="form-label mt-2 fs-3">CheeseCake</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="Profiteroles" value="Profiteroles" class="mt-2">
+                        <label for="Profiteroles" class="form-label mt-2 fs-3">Profiteroles</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="MilHojas" value="MilHojas" class="mt-2">
+                        <label for="MilHojas" class="form-label mt-2  fs-3">Milhojas</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="Surtido1" value="Surtido1" class="mt-2">
+                        <label for="Surtido1" class="form-label mt-2  fs-3">Bandeja Surtida Pequeña</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="Saladitos" value="Saladitos" class="mt-2">
+                        <label for="Saladitos" class="form-label mt-2 fs-3">Saladitos de Jamón 500 grs</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="Brownies" value="Brownies" class="mt-2">
+                        <label for="Brownies" class="form-label mt-2 fs-3">Brownies docena</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="Surtido2" value="Surtido2" class="mt-2 ">
+                        <label for="Surtido2" class="form-label mt-2  fs-3">Bandeja Surtida Mediana</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="Red Velvet" value="Red Velvet" class="mt-2 ">
+                        <label for="Red Velvet" class="form-label mt-2  fs-3">Red Velvet</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="checkbox" id="Especial" value="Especial" class="mt-2 ">
+                        <label for="Especial" class="form-label mt-2  fs-3">Orden Especial</label>
+                    </div>
                 </div>
+
+
+
+               
+
+
+
+
                 <!-- Escoja Sabor de la Cobertura -->
                 <h6>Sabores de Cubierta</h6>
-                <div class="col-12 mt-4">
-                    <input type="radio" name="cubiertas" id="Fresa" value="Fresa" class="mt-2 mx-2">
-                    <label for="Fresa" class="form-label mt-2 mx-2 fs-3">Fresa</label>
-                    <input type="radio" name="cubiertas" id="Mango" value="mango" class="mt-2 mx-2">
-                    <label for="Mango" class="form-label mt-2 mx-2 fs-3">Mango</label>
-                    <input type="radio" name="cubiertas" id="Moras" value="Moras" class="mt-2 mx-2">
-                    <label for="Moras" class="form-label mt-2 mx-2 fs-3">Moras</label>
-                    <input type="radio" name="cubiertas" id="Maracuyá" value="Maracuyá" class="mt-2 mx-2">
-                    <label for="Maracuyá" class="form-label mt-2 mx-2 fs-3">Maracuyá</label>
-                    <input type="radio" name="cubiertas" id="Crema Batida Vainilla" value="Crema Batida Vainilla" class="mt-2 mx-2">
-                    <label for="Crema Batida Vainilla" class="form-label mt-2 mx-2 fs-3">Crema Batida Vainilla</label>
-                    <input type="radio" name="cubiertas" id="Especial" value="Especial" class="mt-2 mx-2">
-                    <label for="Especial" class="form-label mt-2 mx-2 fs-3">Orden Especial</label>
+
+                <div class="row">
+                    <div class="col-4">
+                        <input type="radio" name="cubiertas" id="Fresa" value="Fresa" class="mt-2">
+                        <label for="Fresa" class="form-label mt-2 fs-3">Fresa</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="cubiertas" id="Mango" value="mango" class="mt-2">
+                        <label for="Mango" class="form-label mt-2  fs-3">Mango</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="cubiertas" id="Moras" value="Moras" class="mt-2">
+                        <label for="Moras" class="form-label mt-2  fs-3">Moras</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="cubiertas" id="Maracuyá" value="Maracuyá" class="mt-2">
+                        <label for="Maracuyá" class="form-label mt-2 fs-3">Maracuyá</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="cubiertas" id="Crema Batida Vainilla" value="Crema Batida Vainilla" class="mt-2">
+                        <label for="Crema Batida Vainilla" class="form-label mt-2 fs-3">Crema Batida Vainilla</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="cubiertas" id="Especial" value="Especial" class="mt-2">
+                        <label for="Especial" class="form-label mt-2 fs-3">Orden Especial</label>
+                    </div>
                 </div>
+
+
+
+
+
+
+
+
                 <!-- Escoja Sabor del relleno -->
                 <h6>Rellenos diferentes sabores</h6>
-                <div class="col-12 mt-4">
-                    <input type="radio" name="sabores" id="Fresa" value="Fresa" class="mt-2 mx-2">
-                    <label for="Fresa" class="form-label mt-2 mx-2 fs-3">Fresa</label>
-                    <input type="radio" name="sabores" id="Mango" value="mango" class="mt-2 mx-2">
-                    <label for="Mango" class="form-label mt-2 mx-2 fs-3">Mango</label>
-                    <input type="radio" name="sabores" id="Moras" value="Moras" class="mt-2 mx-2">
-                    <label for="Moras" class="form-label mt-2 mx-2 fs-3">Moras</label>
-                    <input type="radio" name="sabores" id="Maracuyá" value="Maracuyá" class="mt-2 mx-2">
-                    <label for="Maracuyá" class="form-label mt-2 mx-2 fs-3">Maracuyá</label>
-                    <input type="radio" name="sabores" id="Crema Batida Vainilla" value="Crema Batida Vainilla" class="mt-2 mx-2">
-                    <label for="Crema Batida Vainilla" class=" form-label mt-2 mx-2 fs-3">Crema Batida Vainilla</label>
-                    <input type="radio" name="sabores" id="Crema Batida Chocolate" value="Crema Batida Chocolate" class="mt-2 mx-2">
-                    <label for="Crema Batida Chocolate" class="form-label mt-2 mx-2 fs-3">Crema Batida Chocolate</label>
-                    <input type="radio" name="sabores" id="Crema Pastelera vainilla" value="Crema Pastelera Vainilla" class="mt-2 mx-2">
-                    <label for="Crema Pastelera Vainilla" class="form-label mt-2 mx-2 fs-3">Crema Pastelera vainilla</label>
-                    <input type="radio" name="sabores" id="Crema Pastelera chocolate" value="Crema Pastelera Chocolate" class="mt-2 mx-2">
-                    <label for="Crema pastelera chocolate" class="form-label mt-2 mx-2 fs-3">Crema Pastelera Chocolate</label>
-                    <input type="radio" name="sabores" id="Especial" value="Especial" class="mt-2 mx-2">
-                    <label for="Especial" class="form-label mt-2 mx-2 fs-3">Orden Especial</label>
+
+                <div class="row">
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Mango" value="mango" class="mt-2">
+                        <label for="Mango" class="form-label mt-2 fs-3">Mango</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Moras" value="Moras" class="mt-2">
+                        <label for="Moras" class="form-label mt-2 fs-3">Moras</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Maracuyá" value="Maracuyá" class="mt-2">
+                        <label for="Maracuyá" class="form-label mt-2 fs-3">Maracuyá</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Crema Batida Vainilla" value="Crema Batida Vainilla" class="mt-2">
+                        <label for="Crema Batida Vainilla" class=" form-label mt-2 fs-3">Crema Batida Vainilla</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Crema Batida Chocolate" value="Crema Batida Chocolate" class="mt-2">
+                        <label for="Crema Batida Chocolate" class="form-label mt-2 fs-3">Crema Batida Chocolate</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Crema Pastelera vainilla" value="Crema Pastelera Vainilla" class="mt-2">
+                        <label for="Crema Pastelera Vainilla" class="form-label mt-2 fs-3">Crema Pastelera vainilla</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Crema Pastelera chocolate" value="Crema Pastelera Chocolate" class="mt-2">
+                        <label for="Crema pastelera chocolate" class="form-label mt-2 fs-3">Crema Pastelera Chocolate</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="sabores" id="Especial" value="Especial" class="mt-2">
+                        <label for="Especial" class="form-label mt-2 fs-3">Orden Especial</label>
+                    </div>
                 </div>
+
+
+
+
+              
+
+
+
+
+
                 <!-- Escoja tipo de Empaque -->
                 <h6>Tipo de envoltorio</h6>
-                <div class="col-6 mt-4">
-                    <input type="radio" name="envoltorio" id="SimplePapel" value="SimplePapel" class="mt-1 mx-1">
-                    <label for="SimplePapel" class="form-label mt-1 mx-1 fs-3">Papel Normal</label>
-                    <input type="radio" name="envoltorio" id="CompuestoPapel" value="CompuestoPapel" class="mt-1 mx-1">
-                    <label for="CompuestoPapel" class="form-label mt-1 mx-1 fs-3">Papel Normal+Térmico</label>
-                    <input type="radio" name="envoltorio" id="CajaCarton" value="CajaCarton" class="mt-1 mx-1">
-                    <label for="CajaCarton" class="form-label mt-1 mx-1 fs-3">Caja + Térmico</label>
+
+                <div class="row">
+                    <div class="col-4">
+                        <input type="radio" name="envoltorio" id="SimplePapel" value="SimplePapel" class="mt-1">
+                        <label for="SimplePapel" class="form-label mt-1 fs-3">Papel Normal</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="envoltorio" id="CompuestoPapel" value="CompuestoPapel" class="mt-1">
+                        <label for="CompuestoPapel" class="form-label mt-1 fs-3">Papel Normal+Térmico</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="radio" name="envoltorio" id="CajaCarton" value="CajaCarton" class="mt-1">
+                        <label for="CajaCarton" class="form-label mt-1 fs-3">Caja + Térmico</label>
+                    </div>
                 </div>
+
+
+                
         </div>
+
         <!-- Inicio Area de Mensaje Opcional -->
-        <!--<div class="textArea">
+        <!-- <div class="textArea" -->
             
 <!-- prueba otra textarea-->
         <div class="form-floating my-5">
             <p class="text-center fs-3 mb-3">Mensaje:</p>
-                <textarea class="form-control textAreaOrdena fs-3" placeholder="Deja tu opinión" id="tuOpinion1" ></textarea>
+                <textarea class="form-control textAreaOrdena" placeholder="Deja tu opinión" id="tuOpinion1" ></textarea>
                     <label for="tuOpinion1"></label>
         </div>  
 <!-- termina prueba otra texarea-->
@@ -182,8 +274,8 @@
 
         <!-- Fin área de mensaje opcional -->
         <div class="tituloCentro">
-            <input type="submit" value="Enviar" class="fs-4">
-            <input type="reset" value="Cancelar" class="fs-4">
+            <input type="submit" value="Enviar" class="btn btn-primary fs-3 mx-2">
+            <input type="reset" value="Cancelar" class="btn btn-primary fs-3 mx-2">
         </div>
         </form>
     </div>

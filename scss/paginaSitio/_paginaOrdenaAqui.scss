@@ -4,13 +4,15 @@
     background-color: rgba(207, 183, 168, 0.4);
 }
 
-textarea::placeholder{
-    font-size: 1.5rem;
-    color: rgba(193, 2, 221, 1.0);
+
+.tamañoMaximoForm{
+    max-width: 90%;
 }
+
 
 .textAreaOrdena{
     margin: 0 auto;
-    width: 400px;
+    max-width: 80%;
+    font-size: $tamañoLetra2;
     background-color: rgba(207, 183, 168, 0.4);
 }

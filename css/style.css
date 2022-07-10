@@ -254,10 +254,11 @@ ul li.dropdown {
 
 /* AJUSTE Ppal1 */
 .ppal1 {
+  max-height: 100%;
   margin: 20px auto;
   border: solid 2px black;
   border-top-right-radius: 12px;
-  background: linear-gradient(289deg, rgba(170, 173, 120, 0.4) 20%, rgba(102, 148, 36, 0.4) 40%); }
+  background: linear-gradient(160deg, rgba(170, 173, 120, 0.4) 20%, rgba(102, 148, 36, 0.4) 40%); }
 
 .pie ul {
   display: flex;
@@ -289,41 +290,46 @@ ul li.dropdown {
   font-size: 2rem; }
 
 .tablaCaption {
-  font-size: 3.5rem;
+  font-size: 1.1rem;
   font-weight: 600; }
 
 /* AJUSTES ORDENA AQUÍ */
 .fondoCamposOrdena {
   background-color: rgba(207, 183, 168, 0.4); }
 
-textarea::placeholder {
-  font-size: 1.5rem;
-  color: #c102dd; }
+.tamañoMaximoForm {
+  max-width: 90%; }
 
 .textAreaOrdena {
   margin: 0 auto;
-  width: 400px;
+  max-width: 80%;
+  font-size: 2rem;
   background-color: rgba(207, 183, 168, 0.4); }
 
 .costado {
   border: solid black 2px;
   border-top-right-radius: 8px;
-  width: 140px;
-  height: 140px;
+  height: 180px;
   margin-right: 20px;
   padding: 2px 2px 2px 2px; }
+
+#videoNosotros {
+  max-height: 40%;
+  padding: 1px 1px 1px 1px; }
 
 section div video {
   border-style: solid;
   border-width: 2px;
   border-top-right-radius: 8px;
-  height: 140px;
-  margin-left: 5x;
-  margin-right: 20px;
+  /*height: 140px;*/
+  max-height: 180px;
   padding: 1px 1px 1px 1px; }
 
 /* AJUSTES CONTACTANOS */
 .textAreaNov {
   margin: 0 auto;
-  width: 400px;
+  max-width: 80%;
   background-color: rgba(207, 183, 168, 0.4); }
+
+.fondoDatosContacto {
+  background: none; }
