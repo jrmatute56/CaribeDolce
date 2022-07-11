@@ -124,6 +124,14 @@ p.parrafo1Pos {
 }
 
 
+.sideTituloSombra{
+
+    @extend .sideTitulo;
+    text-shadow: $sombraTexto3;
+}
+
+
+
 .novTituloCentro {
     text-align: $alinearCentro;
     font-family: $tipografiaPrimaria;

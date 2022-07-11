@@ -16,3 +16,24 @@
     font-size: $tamañoLetra2;
     background-color: rgba(207, 183, 168, 0.4);
 }
+
+
+
+
+
+
+/* MIXIN */
+
+@mixin difEstiloBoton ($colorTexto,$tF,$margenDerecha,$colorFondo,$borde){
+
+    color: $colorTexto;
+    font-size: $tF;
+    margin-right: $margenDerecha;
+    background-color: $colorFondo;
+    border: $borde;
+
+}
+
+.estiloBoton{
+    @include difEstiloBoton(violet,2.4rem,8px,gray, solid 1px black)
+}

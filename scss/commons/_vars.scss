@@ -93,3 +93,33 @@ $rightTopRadius2: 16px;
 $ancho1: 150px;
 $alto1: 150px;
 $alto2: 140px;
+
+/* MAP */
+
+$gammaColor:(
+	"colorUno":$primerColor,
+	"colorDos":$segundoColor,
+	"colorTres":$tercerColor,
+	"colorCuatro":$cuartoColor,
+	"coloCinco":$quintoColor,
+	"colorSeis":$sextoColor,
+	"colorSiete":$septimoColor,
+	"coloOcho":$octavoColor,
+	"coloNueve":$novenoColor,
+	"coloDiez":$decimoColor,
+	"coloeOnce":$undecimoColor,
+	"colorDoce":$duodecimoColor,
+	"coloTrece":$decimoTercerColor,
+	"colorCatorce":$decimoCuartoColor,
+	);
+
+
+
+/* SOMBRA TEXTO */
+
+$sombraTexto1: 1px 1px 2px blueviolet;
+$sombraTexto2: 2px 2px 4px #7890C7;
+$sombraTexto3: 2px 2px 4px #A73939;
+
+
+
