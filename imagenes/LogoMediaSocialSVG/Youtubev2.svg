@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 38" width="53" height="38">
+	<title>Youtubev2</title>
+	<defs>
+		<image  width="53" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAmCAMAAABTeiN3AAAAAXNSR0IB2cksfwAAATtQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////70M7////////////////////////////////////70M7////////////70M7////////////70M770M7////////70M770M770M7////70M7////////////////////////////////////////////////////////////////////70M7////70M7////70M770M770M770M770M770M770M770M770M770M770M770M770M7////70M7////////70M770M770M7////////70M770M770M770M7////////////zLf/vAAAAGl0Uk5TAAE0hLm7qqCZmIiAd3uNssTW6PnZpnMwD5Di///7KKcLV/PPHV7SDQzmtgOGGvT3Dl3P4/sW9WYeZDJVP0hANxkKMxMjHBIl/i3xNuDQ1rBt/fOhl9osUVZa22gCVdnKBEmr3OrRtJtuUy5DfQAAAUZJREFUeJyd1WdTwkAQBuBFMUAQFUuIZo2xosReULFg76Ji79j9/7/AAGEQ5/aS9f14c89M7i6zL4CbQF19sCGoKEooHI6oqhptdBNrCjW3xFvb2ju0BNRG7+wy0CtGt1aDzLgnKafHqqLePp8IsX+gggZ9GydDyTIaHuEoTNklFWUhxNEiGhtnqolJR0WYCHHKUdNslXLUDFvNzgGk2QrnweIj1GBBtGzIf8pFyIiV1C3BMqUkbAVWSUW7rFRRzvRQYrfmqURu/V/KltwhfTALNmRKaBA3YYtWhEHchh1KkQZxF+w9oZIYxH2AA+kGYQ4BjvgqA3DMRrkAwAlbnTpzI3HGRHm9OBDPmeqiNHuTORa61N0e4lx+/qpSKteilyZyUy2w2zufJn3/uywfHp/8oGfzTzMXXmKvb5Ivff/4/PouuJt/AGVr1/6qGJx6AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

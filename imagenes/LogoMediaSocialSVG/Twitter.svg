@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 54" width="52" height="54">
+	<title>Twitter</title>
+	<defs>
+		<image  width="52" height="54" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA2CAMAAAC/bkrSAAAAAXNSR0IB2cksfwAAASxQTFRFAAAA////////////////////////////////////////////////////////////////////ALff////////////////////////////////////////////////////////////////////////////////ALff////////////////////////////ALffALff////////////////////////////////////////////////////////////////////////ALffALff////ALff////////////ALff////////////ALffALff////ALffALff////////ALffALff////////ALffALffALffALffALffALffALffALffALff////////0Vq6FAAAAGR0Uk5TAApKd3NmWlVSRD8tGwkruvf///bk0q4pTeP5hvpea/1Qbg4V8ZOR/Tog+AJ7KIDJ+H55cWlhQjszLCUdFg8HDRQaIfnSLqY1ehzzasQBuuEX0/QwDLP+VwOTM6L7wiCI7syqLwW3CMEAAAGBSURBVHicndZpU8IwEAbg5ShQFbUrKB6oiHghiveBiuKJird4C+r//w+2ZQo0CWmS9xOT7tPsztCZBWjG5w8EAkFN00LhcERvT1d3TxQY6Q329RvIyUAsPjjkIolhLnAyMuprmdCYCLESSzpmfELUIBqTDZMSaq1515Rl0tMyBjFjoRk5g7NzAPMLkgjjWViUNYg5WJJHSRWUUUHLKiivgtALMf8tXGQ0Yv9woRWijDaObEOr1KuZxo3W6H680TpzCG53CBus0e2ijgYhxEZECBQRMSTyq6BNFbQlMhMSaFsF7aCAItGuAEISFdBbUWhPBe2TJ94G4YA6IhldAFmvm2jjvklkHhsVufOwiIkOOc2xiYmO6DMusFGJ95SdY8jJoxM4lUdncC6PLoiPUCgJKF9KoxLAlay5rgBUbuTM7Z21SJTvZczDY2PPeXoWN9UXZ6N6fRM1+VTbwvf+8SlivtxrInzX6l6krlWojTSq136qHYVh/KZZe6yZgt4xf62qf6MhxodThnXiAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

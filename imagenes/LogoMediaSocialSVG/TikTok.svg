@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53" width="53" height="53">
+	<title>TikTok</title>
+	<defs>
+		<image  width="53" height="53" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA1CAMAAADWOFNCAAAAAXNSR0IB2cksfwAAAX1QTFRFAAAA////////////////////////////////////////////////////lZWVc3NzOzs7AAAA////////////tra2HBwc////////////X19f////////y8vLAAAA////////////Li4uAAAA////////XFxc////////////hoaG////////////AAAA////////////BrzA70Be////////////////////////////////////////////////////////////////////////////////////////DQ0N////////Y2NjmJiY////////Li4uk5OTAAAA////////ZmZmNTU1AAAAjIyMAAAAAAAApKSk////qqqqQEBAU1NT////y8vLfHx8AAAAampqxsbG5+fnqqqqQEBAAAAASUlJZmZmbm5ufHx8h4eHjY2NnJycoaGhqqqqsrKytra2////////////////////////////////////MmfqEgAAAH90Uk5TAD93e4iZpaqyu6JAATz/////2hUrwP/4dl70cQ6m/mEM2P/6TZb/8hdB/pQL3Pux/y7//0RITFBUWFxgZGhscHR4fG5SRTcpGw3/Ajv/xDMszIf8SQrWiP2cQd6fBQqIyDo3mOzOVANEovH//////////92iZgkmHxEIISJCHt0aj6UAAAHKSURBVHictdb3U8IwFAfwiKAiDp57L1TcVosT9wJFxb333nuB428XaKFtkoYUz+9PXJvP5ZK+dzyEYkky0ZJsNlssKalp1nRbBiKSac3KtgMzOaZcrcnLL2ALKYVFalRcwmPCKY2ZsnJeA1BRKaOq6hp+BY5aSdXVG0AAzoYwamwyhACaQ6il1SCCtjyEbEYRQHtCSujQV51SaMoWV4mUV2wlhJKYorF/UxTGo8h7dHEogfgAXTxKwD9AN5fCD9eTkOqlKLmQGKqPUNFCEqO1IZKqH1eSCS9WKkoMR73IjSnZaBWRAa3qVAqCpQY1SkFsNURVkYMw1DCuZATM/hqhKPnCGGoUU9JWEEeN0RT8WYk0NU69Dfm3rnLTlFyK6kNqM4HXhqBiyn1imSQqKsYE3a1giqheQR06Ag/ZKRpEV16iK0W1oSOYRrYZ/JnUvfoGnD40O0c+Fonu1cSCkG9e961e/KE/5gWHQbQYmRyWjKHllYhaXTOkojPR6voGP9pUpq+tbU5TsbOrGtr29rm2OzjEpsqj45N4+5yekcMoOr+4vMJX2q9vbu/uHx6fnl9evRQTyduh//0jEETBQODzy+P3f7vk/GjX/QISoAXAf+uUQgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
