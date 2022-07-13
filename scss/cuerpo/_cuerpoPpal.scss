@@ -34,7 +34,6 @@
         box-shadow: 10px 10px 3px 1px $tercerColor;
         margin-right: $margen4;
         margin-bottom: $margen5;
-        width: $ancho1;
         height: $alto1;
 
 
@@ -46,8 +45,10 @@
         box-shadow: 10px 10px 3px 1px $tercerColor;
         margin-right: $margen4;
         margin-bottom: $margen5;
-        /*width: $ancho1;*/
-        height: 250px;
+        width: $ancho2;
+        height: $alto3;
+        object-fit: fill;
+
 
     }
 }
