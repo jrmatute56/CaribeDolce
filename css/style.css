@@ -258,6 +258,32 @@ ul li.dropdown {
   font-weight: 600;
   line-height: 1.5rem; }
 
+.leyenda {
+  font-size: 1.4rem;
+  color: aliceblue; }
+
+.formaBoton1 {
+  background-color: rgba(211, 239, 159, 0.3);
+  border: solid 1px black;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  height: 40px;
+  width: 100px; }
+  .formaBoton1:hover {
+    color: darkblue; }
+
+.ubicacionBoton1 {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center; }
+
+.ubicacionBoton2 {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
 /* AJUSTE Ppal1 */
 .ppal1 {
   max-height: 100%;

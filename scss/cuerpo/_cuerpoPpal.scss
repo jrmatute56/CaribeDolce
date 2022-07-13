@@ -74,3 +74,33 @@
     line-height: $entreLinea3;
     
 }
+
+.leyenda{
+    font-size: $tamañopequeño;
+    color: $decimoCuartoColor;
+}
+.formaBoton1{
+    background-color: rgba(211,239,159,0.3);
+    border: $borde2;
+    border-radius: $radioBordes;
+    padding: 6px 10px;
+    font-size: $tamañoLetra1;
+    color: whitesmoke;
+    height: 40px;
+    width: 100px;
+        &:hover{
+            color: darkblue;
+        }
+}
+
+.ubicacionBoton1{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.ubicacionBoton2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
