@@ -203,6 +203,15 @@ ul li.dropdown {
   .tamañoImgNov {
     width: 30%; } }
 
+@media only screen and (min-width: 200px) and (max-width: 760px) {
+  .videoNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 80%;
+    margin-left: 30px; } }
+
 /* PRESENTACION DIFERENTE CUERPO PRINCIPAL */
 .ppal {
   margin: 20px auto;
@@ -353,15 +362,15 @@ ul li.dropdown {
   margin-right: 20px;
   padding: 2px 2px 2px 2px; }
 
-#videoNosotros {
-  max-height: 40%;
-  padding: 1px 1px 1px 1px; }
-
+/*#videoNosotros{
+   
+    max-width: 100%;
+    padding: 1px 1px 1px 1px;
+}*/
 section div video {
   border-style: solid;
   border-width: 2px;
   border-top-right-radius: 8px;
-  /*height: 140px;*/
   max-height: 180px;
   padding: 1px 1px 1px 1px; }
 
