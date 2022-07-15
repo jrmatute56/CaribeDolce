@@ -58,26 +58,27 @@
 .textoPCuriosidades {
     margin: $margen6;
     padding-left: $relleno2;
-    font-size: $tamañoLetra1;
+    font-size: $tamañoLetra2;
     color:black;
     font-weight: $pesoTipografia1;
-    line-height: $entreLinea3;
+    line-height: $entreLinea2;
    
 }
 
 .textoVideoMp4 {
     margin: $margen6;
     padding-left: $relleno2;
-    font-size: $tamañoLetra1;
+    font-size: $tamañoLetra2;
     color: black;
     font-weight: $pesoTipografia1;
-    line-height: $entreLinea3;
+    line-height: $entreLinea2;
     
 }
 
 .leyenda{
-    font-size: $tamañopequeño;
-    color: $decimoCuartoColor;
+    font-size: $tamañoLetra1;
+    color: black;
+    font-family: $tipografiaPrimaria;
 }
 .formaBoton1{
     background-color: rgba(211,239,159,0.3);
